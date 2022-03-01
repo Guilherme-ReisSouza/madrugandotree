@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ultra', serif;
+}
+
+html, body{
+
+    height: 100%;
+    background-color: #FABF3A;
+    background: url("../imagens/MadrugandoLinktreeBg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container{
+
+    height: 100%;
+    background: url("../imagens/MadrugandoLinktreeBg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.titulo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bemvindo{
+
+    height: 12em;
+    margin-left: 2.3rem;
+
+    
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttonimg{
+
+    width: 25rem;
+    border-radius: 1.8rem;
+    align-content: center;
+}
+
+button{
+
+    width: 25.9rem;
+    height: 8.7rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #171717;
+    border-style: solid;
+    border-style: solid
+}
+
+button:focus {
+    outline:none;
+}
+
+.buttonimg:hover{
+    transition: 600ms ease;
+    transform: rotate(0.1deg);
+}
+button:hover{
+    transition: 600ms ease;
+    transform: rotate(4deg);
+}
+
+
+
